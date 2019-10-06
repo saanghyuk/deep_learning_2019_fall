@@ -1,7 +1,6 @@
 
 df = read.table("morse_code.csv")
 df <- df[1:26,1]
-
 alphabet<-c()
 morse<-c()
 
