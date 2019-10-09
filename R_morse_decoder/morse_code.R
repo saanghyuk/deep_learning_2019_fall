@@ -1,6 +1,8 @@
 
-df = read.table("morse_code.csv")
+df = read.table("/Users/sanghyuk/Documents/deep_learning_2019_fall/R_morse_decoder/morse_code.csv")
+df
 df <- df[1:26,1]
+df
 alphabet<-c()
 morse<-c()
 
